@@ -1,0 +1,99 @@
+body{
+    background-image: url(./pics/admin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input{
+    width: 100%;
+    background: #f7e5f7;
+    border: none;
+    border-color: #f7e5f7;
+    height: 30px;
+    border-radius: 4px;
+}
+label{
+    color: #fff;
+    font-weight: bold;
+}
+.btn-add{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 50%;
+    margin-left: 5px;
+    background: green ;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.btn-add:hover{
+    background: #fff;
+    color: green  ;
+}
+
+.btn-cancel{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 50%;
+    margin-left: 5px;
+    background: red ;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.btn-cancel:hover{
+    background: #fff;
+    color: red  ;
+}
+
+.btn-back{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 12%;
+    margin-left: 5px;
+    background: #002ca5cc ;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.btn-back:hover{
+    background: #fff;
+    color: #002ca5cc
+}
+
+.filepond--drop-label {
+    color: #4c4e53;
+}
+.filepond--label-action {
+    text-decoration-color: #babdc0;
+}
+.filepond--panel-root {
+    border-radius: 2em;
+    background-color: #edf0f4;
+    height: 1em;
+}
+.filepond--item-panel {
+    background-color: #595e68;
+}
+.filepond--drip-blob {
+    background-color: #7f8a9a;
+}
